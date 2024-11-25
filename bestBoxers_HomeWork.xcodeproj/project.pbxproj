@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E60EE6A1E0A1D5CF7A4E779 /* Pods_bestBoxers_HomeWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE1BD017517B48DA9E5D85A /* Pods_bestBoxers_HomeWork.framework */; };
+		95CC7718DBA84A71E9BA7BBE /* Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552849FFC5F1A7796E73B79C /* Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework */; };
+		F0BE979F2F202F831DF27F74 /* Pods_bestBoxers_HomeWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A301C065A63FCC9F2263C180 /* Pods_bestBoxers_HomeWorkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B3CBBA2CF4D54E00F3D4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B3CB9B2CF4D54C00F3D4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B3CBA22CF4D54C00F3D4F4;
+			remoteInfo = bestBoxers_HomeWork;
+		};
+		03B3CBC42CF4D54E00F3D4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B3CB9B2CF4D54C00F3D4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B3CBA22CF4D54C00F3D4F4;
+			remoteInfo = bestBoxers_HomeWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B3CBA32CF4D54C00F3D4F4 /* bestBoxers_HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bestBoxers_HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B3CBB92CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bestBoxers_HomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B3CBC32CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bestBoxers_HomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272E9E05DCADE340C5AA3511 /* Pods-bestBoxers_HomeWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWorkTests.debug.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWorkTests/Pods-bestBoxers_HomeWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BDFBE2991348A603FC018DB /* Pods-bestBoxers_HomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWork.release.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWork/Pods-bestBoxers_HomeWork.release.xcconfig"; sourceTree = "<group>"; };
+		41E0D37DE01DF12447ED9D0D /* Pods-bestBoxers_HomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWork.debug.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWork/Pods-bestBoxers_HomeWork.debug.xcconfig"; sourceTree = "<group>"; };
+		552849FFC5F1A7796E73B79C /* Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE1BD017517B48DA9E5D85A /* Pods_bestBoxers_HomeWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bestBoxers_HomeWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A301C065A63FCC9F2263C180 /* Pods_bestBoxers_HomeWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bestBoxers_HomeWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FE727B064CC28410800B7D /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.debug.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F61D8495341D4559E0CD6C82 /* Pods-bestBoxers_HomeWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWorkTests.release.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWorkTests/Pods-bestBoxers_HomeWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDC21EA79EEE0ADA7580D559 /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.release.xcconfig"; path = "Target Support Files/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03B3CBCB2CF4D54E00F3D4F4 /* Exceptions for "bestBoxers_HomeWork" folder in "bestBoxers_HomeWork" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 03B3CBA22CF4D54C00F3D4F4 /* bestBoxers_HomeWork */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		03B3CBA52CF4D54C00F3D4F4 /* bestBoxers_HomeWork */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03B3CBCB2CF4D54E00F3D4F4 /* Exceptions for "bestBoxers_HomeWork" folder in "bestBoxers_HomeWork" target */,
+			);
+			path = bestBoxers_HomeWork;
+			sourceTree = "<group>";
+		};
+		03B3CBBC2CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bestBoxers_HomeWorkTests;
+			sourceTree = "<group>";
+		};
+		03B3CBC62CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bestBoxers_HomeWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B3CBA02CF4D54C00F3D4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E60EE6A1E0A1D5CF7A4E779 /* Pods_bestBoxers_HomeWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBB62CF4D54E00F3D4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE979F2F202F831DF27F74 /* Pods_bestBoxers_HomeWorkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBC02CF4D54E00F3D4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CC7718DBA84A71E9BA7BBE /* Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B3CB9A2CF4D54C00F3D4F4 = {
+			isa = PBXGroup;
+			children = (
+				03B3CBA52CF4D54C00F3D4F4 /* bestBoxers_HomeWork */,
+				03B3CBBC2CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests */,
+				03B3CBC62CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests */,
+				03B3CBA42CF4D54C00F3D4F4 /* Products */,
+				DC2453B3EDB5362EB61111FC /* Pods */,
+				6FE91BE1B4F394BC57D86BEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03B3CBA42CF4D54C00F3D4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B3CBA32CF4D54C00F3D4F4 /* bestBoxers_HomeWork.app */,
+				03B3CBB92CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests.xctest */,
+				03B3CBC32CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE91BE1B4F394BC57D86BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE1BD017517B48DA9E5D85A /* Pods_bestBoxers_HomeWork.framework */,
+				552849FFC5F1A7796E73B79C /* Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests.framework */,
+				A301C065A63FCC9F2263C180 /* Pods_bestBoxers_HomeWorkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2453B3EDB5362EB61111FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E0D37DE01DF12447ED9D0D /* Pods-bestBoxers_HomeWork.debug.xcconfig */,
+				3BDFBE2991348A603FC018DB /* Pods-bestBoxers_HomeWork.release.xcconfig */,
+				A8FE727B064CC28410800B7D /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.debug.xcconfig */,
+				FDC21EA79EEE0ADA7580D559 /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.release.xcconfig */,
+				272E9E05DCADE340C5AA3511 /* Pods-bestBoxers_HomeWorkTests.debug.xcconfig */,
+				F61D8495341D4559E0CD6C82 /* Pods-bestBoxers_HomeWorkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B3CBA22CF4D54C00F3D4F4 /* bestBoxers_HomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B3CBCC2CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWork" */;
+			buildPhases = (
+				F6308AE70EB19B754E309AFB /* [CP] Check Pods Manifest.lock */,
+				03B3CB9F2CF4D54C00F3D4F4 /* Sources */,
+				03B3CBA02CF4D54C00F3D4F4 /* Frameworks */,
+				03B3CBA12CF4D54C00F3D4F4 /* Resources */,
+				917088BD420010044405E256 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				03B3CBA52CF4D54C00F3D4F4 /* bestBoxers_HomeWork */,
+			);
+			name = bestBoxers_HomeWork;
+			productName = bestBoxers_HomeWork;
+			productReference = 03B3CBA32CF4D54C00F3D4F4 /* bestBoxers_HomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B3CBB82CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B3CBD12CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWorkTests" */;
+			buildPhases = (
+				CFD333D20F385956E617CA73 /* [CP] Check Pods Manifest.lock */,
+				03B3CBB52CF4D54E00F3D4F4 /* Sources */,
+				03B3CBB62CF4D54E00F3D4F4 /* Frameworks */,
+				03B3CBB72CF4D54E00F3D4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B3CBBB2CF4D54E00F3D4F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03B3CBBC2CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests */,
+			);
+			name = bestBoxers_HomeWorkTests;
+			productName = bestBoxers_HomeWorkTests;
+			productReference = 03B3CBB92CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03B3CBC22CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B3CBD42CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWorkUITests" */;
+			buildPhases = (
+				ABEEEAD868F82A6D8D03B094 /* [CP] Check Pods Manifest.lock */,
+				03B3CBBF2CF4D54E00F3D4F4 /* Sources */,
+				03B3CBC02CF4D54E00F3D4F4 /* Frameworks */,
+				03B3CBC12CF4D54E00F3D4F4 /* Resources */,
+				65123792390541AF4371BB43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B3CBC52CF4D54E00F3D4F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03B3CBC62CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests */,
+			);
+			name = bestBoxers_HomeWorkUITests;
+			productName = bestBoxers_HomeWorkUITests;
+			productReference = 03B3CBC32CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B3CB9B2CF4D54C00F3D4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					03B3CBA22CF4D54C00F3D4F4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					03B3CBB82CF4D54E00F3D4F4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 03B3CBA22CF4D54C00F3D4F4;
+					};
+					03B3CBC22CF4D54E00F3D4F4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 03B3CBA22CF4D54C00F3D4F4;
+					};
+				};
+			};
+			buildConfigurationList = 03B3CB9E2CF4D54C00F3D4F4 /* Build configuration list for PBXProject "bestBoxers_HomeWork" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B3CB9A2CF4D54C00F3D4F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03B3CBA42CF4D54C00F3D4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B3CBA22CF4D54C00F3D4F4 /* bestBoxers_HomeWork */,
+				03B3CBB82CF4D54E00F3D4F4 /* bestBoxers_HomeWorkTests */,
+				03B3CBC22CF4D54E00F3D4F4 /* bestBoxers_HomeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B3CBA12CF4D54C00F3D4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBB72CF4D54E00F3D4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBC12CF4D54E00F3D4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65123792390541AF4371BB43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917088BD420010044405E256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork/Pods-bestBoxers_HomeWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork/Pods-bestBoxers_HomeWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bestBoxers_HomeWork/Pods-bestBoxers_HomeWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEEEAD868F82A6D8D03B094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD333D20F385956E617CA73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bestBoxers_HomeWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6308AE70EB19B754E309AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bestBoxers_HomeWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B3CB9F2CF4D54C00F3D4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBB52CF4D54E00F3D4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B3CBBF2CF4D54E00F3D4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B3CBBB2CF4D54E00F3D4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B3CBA22CF4D54C00F3D4F4 /* bestBoxers_HomeWork */;
+			targetProxy = 03B3CBBA2CF4D54E00F3D4F4 /* PBXContainerItemProxy */;
+		};
+		03B3CBC52CF4D54E00F3D4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B3CBA22CF4D54C00F3D4F4 /* bestBoxers_HomeWork */;
+			targetProxy = 03B3CBC42CF4D54E00F3D4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B3CBCD2CF4D54E00F3D4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E0D37DE01DF12447ED9D0D /* Pods-bestBoxers_HomeWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bestBoxers_HomeWork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B3CBCE2CF4D54E00F3D4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDFBE2991348A603FC018DB /* Pods-bestBoxers_HomeWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bestBoxers_HomeWork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03B3CBCF2CF4D54E00F3D4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B3CBD02CF4D54E00F3D4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B3CBD22CF4D54E00F3D4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272E9E05DCADE340C5AA3511 /* Pods-bestBoxers_HomeWorkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bestBoxers_HomeWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bestBoxers_HomeWork";
+			};
+			name = Debug;
+		};
+		03B3CBD32CF4D54E00F3D4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61D8495341D4559E0CD6C82 /* Pods-bestBoxers_HomeWorkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bestBoxers_HomeWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bestBoxers_HomeWork";
+			};
+			name = Release;
+		};
+		03B3CBD52CF4D54E00F3D4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FE727B064CC28410800B7D /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bestBoxers_HomeWork;
+			};
+			name = Debug;
+		};
+		03B3CBD62CF4D54E00F3D4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC21EA79EEE0ADA7580D559 /* Pods-bestBoxers_HomeWork-bestBoxers_HomeWorkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.bestBoxers-HomeWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bestBoxers_HomeWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B3CB9E2CF4D54C00F3D4F4 /* Build configuration list for PBXProject "bestBoxers_HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B3CBCF2CF4D54E00F3D4F4 /* Debug */,
+				03B3CBD02CF4D54E00F3D4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B3CBCC2CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B3CBCD2CF4D54E00F3D4F4 /* Debug */,
+				03B3CBCE2CF4D54E00F3D4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B3CBD12CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B3CBD22CF4D54E00F3D4F4 /* Debug */,
+				03B3CBD32CF4D54E00F3D4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B3CBD42CF4D54E00F3D4F4 /* Build configuration list for PBXNativeTarget "bestBoxers_HomeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B3CBD52CF4D54E00F3D4F4 /* Debug */,
+				03B3CBD62CF4D54E00F3D4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B3CB9B2CF4D54C00F3D4F4 /* Project object */;
+}

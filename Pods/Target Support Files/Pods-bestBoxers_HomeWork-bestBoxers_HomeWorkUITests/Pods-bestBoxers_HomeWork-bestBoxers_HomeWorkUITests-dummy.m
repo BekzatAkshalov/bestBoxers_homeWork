@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests : NSObject
+@end
+@implementation PodsDummy_Pods_bestBoxers_HomeWork_bestBoxers_HomeWorkUITests
+@end
